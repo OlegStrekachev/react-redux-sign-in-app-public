@@ -1,0 +1,13 @@
+.modalContent {
+  height: auto;
+  padding: 2rem;
+  display: grid;
+  gap: var(--step-0);
+  overflow-y: auto;
+}
+
+.formGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Adjust as needed */
+  grid-gap: 1rem; /* Set the gap size */
+}

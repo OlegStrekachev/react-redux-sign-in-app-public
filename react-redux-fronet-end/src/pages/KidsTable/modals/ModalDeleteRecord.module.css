@@ -1,0 +1,17 @@
+.modalContent {
+  height: auto;
+  padding: 2rem;
+  display: grid;
+  gap: var(--step-0);
+  overflow-y: auto;
+}
+
+.formGroup:nth-child(2) {
+  justify-self: center;
+}
+
+.formGroup:nth-child(3) {
+  gap: var(--step-0);
+  display: flex;
+  justify-content: space-between;
+}

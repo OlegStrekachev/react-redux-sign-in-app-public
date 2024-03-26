@@ -1,0 +1,51 @@
+.tableWrapper {
+  min-width: 800px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tableWrapper > div:hover {
+  border: 1px solid #7d98b3;
+}
+
+.tableWrapper > div:nth-child(odd) {
+  background-color: rgb(247, 247, 247);
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dee2e6;
+}
+
+.flexContainer > div:nth-child(4) {
+  flex: 2;
+  justify-content: space-evenly;
+}
+
+.flexContainer > div:nth-child(5) {
+  margin-right: var(--space-s);
+}
+
+
+.flexItem {
+  flex: 1;
+  height: var(--space-xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  color: #4CAF50;
+}
+
+.blue {
+  color: #007BFF;
+}
+
+.red {
+  color: #FF6B6B;
+}

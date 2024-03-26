@@ -1,0 +1,50 @@
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  /* overflow: hidden; */
+}
+
+.modalWrapper {
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  position: relative;
+  width: auto;
+  height: auto;
+
+  @media (max-width: 800px) {
+    width: auto;
+    height: auto;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  background: none;
+  transition: color 0.3s;
+
+  font-size: var(--step-2);
+  line-height: 1;
+  margin-right: var(--step-0);
+
+  color: var(--main-grey-70);
+
+  width: var(--step-2); /* or whatever dimension you desire */
+  height: var(--step-2);
+  padding: 0;
+  border: none;
+}
+
+.modal h1 {
+  margin: 5rem;
+}

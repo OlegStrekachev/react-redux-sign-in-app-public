@@ -1,0 +1,60 @@
+.modalContent {
+  padding: var(--step-2);
+  display: grid;
+  gap: var(--step-1);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formGroup > * {
+  width: 100%;
+}
+
+.formGroup input {
+  height: var(--step-2); /* Adjust the height here */
+  border: 1px solid #ccc; /* Optional: Add a border for clearer separation */
+  border-radius: 4px; /* Optional: Round the corners for aesthetics */
+}
+
+.formGroup:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formGroup:nth-child(1) > h2 {
+  margin: 0;
+}
+
+.formGroup:nth-child(1) > button {
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.daysContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.daysCellContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}

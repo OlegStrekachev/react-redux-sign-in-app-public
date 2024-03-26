@@ -1,0 +1,95 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: calc(var(--step--2));
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--main-grey-70);
+
+  --main-grey-100: #000000;
+  --main-grey-off-black: #141414;
+  --main-grey-80: #333333;
+  --main-grey-70: #464646;
+  --main-grey-60: #666666;
+  --main-grey-40: #999999;
+  --main-grey-20: #cccccc;
+  --main-grey-10: #e5e5e5;
+  --main-grey-5: #f2f2f2;
+
+  /* @link https://utopia.fyi/type/calculator?c=375,20,1.25,1400,24,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+  --step--2: clamp(0.84rem, calc(0.89rem + -0.06vw), 0.88rem);
+  --step--1: clamp(1.1rem, calc(1.09rem + 0.04vw), 1.13rem);
+  --step-0: clamp(1.38rem, calc(1.33rem + 0.2vw), 1.5rem);
+  --step-1: clamp(1.72rem, calc(1.62rem + 0.44vw), 2rem);
+  --step-2: clamp(2.15rem, calc(1.96rem + 0.81vw), 2.67rem);
+  --step-3: clamp(2.69rem, calc(2.37rem + 1.35vw), 3.55rem);
+  --step-4: clamp(3.36rem, calc(2.85rem + 2.15vw), 4.74rem);
+  --step-5: clamp(4.2rem, calc(3.42rem + 3.3vw), 6.31rem);
+  /* @link https://utopia.fyi/space/calculator?c=375,20,1.25,1400,24,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+  --space-3xs: clamp(0.38rem, calc(0.38rem + 0vw), 0.38rem);
+  --space-2xs: clamp(0.69rem, calc(0.66rem + 0.1vw), 0.75rem);
+  --space-xs: clamp(1.06rem, calc(1.04rem + 0.1vw), 1.13rem);
+  --space-s: clamp(1.38rem, calc(1.33rem + 0.2vw), 1.5rem);
+  --space-m: clamp(2.06rem, calc(1.99rem + 0.29vw), 2.25rem);
+  --space-l: clamp(2.75rem, calc(2.66rem + 0.39vw), 3rem);
+  --space-xl: clamp(4.13rem, calc(3.99rem + 0.59vw), 4.5rem);
+  --space-2xl: clamp(5.5rem, calc(5.32rem + 0.78vw), 6rem);
+  --space-3xl: clamp(8.25rem, calc(7.98rem + 1.17vw), 9rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.38rem, calc(0.24rem + 0.59vw), 0.75rem);
+  --space-2xs-xs: clamp(0.69rem, calc(0.53rem + 0.68vw), 1.13rem);
+  --space-xs-s: clamp(1.06rem, calc(0.9rem + 0.68vw), 1.5rem);
+  --space-s-m: clamp(1.38rem, calc(1.05rem + 1.37vw), 2.25rem);
+  --space-m-l: clamp(2.06rem, calc(1.72rem + 1.46vw), 3rem);
+  --space-l-xl: clamp(2.75rem, calc(2.11rem + 2.73vw), 4.5rem);
+  --space-xl-2xl: clamp(4.13rem, calc(3.44rem + 2.93vw), 6rem);
+  --space-2xl-3xl: clamp(5.5rem, calc(4.22rem + 5.46vw), 9rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1.38rem, calc(0.78rem + 2.54vw), 3rem);
+}
+
+/* END OF ROOT */
+
+/* Header typography */
+h1 {
+  font-size: var(--step-3);
+}
+h2 {
+  font-size: var(--step-2);
+}
+h3 {
+  font-size: var(--step-1);
+}
+h4 {
+  font-size: var(--step-0);
+  font-weight: 600;
+  line-height: 125%;
+}
+h5 {
+  font-size: var(--step--1);
+}
+h6 {
+  font-size: var(--step--2);
+  font-weight: 600;
+  line-height: 150%;
+  color: var(--main-grey-80);
+}
+
+/* Paragraph typography */
+p {
+  font-size: calc(var(--step--2));
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--main-grey-80);
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  font-size: calc(var(--step--1));
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--main-grey-80);
+}
